@@ -52,13 +52,14 @@ def collect_tests(testreqs):
         else:
             curdir = os.getcwd()
             os.chdir(testreq)
+            shortdir = os.path.basename(testreq)
             for nml1 in sorted(glob(f'*.nml1')):
                 tbase = nml1.replace(".nml1", "")
                 test_nml2 = f"{tbase}.nml2"
                 if os.path.exists(test_nml2):
                     tcases.append([testreq, nml1, test_nml2])
                 else:
-                    dir_nml2 = f"{testreq}.nml2"
+                    dir_nml2 = f"{shortdir}.nml2"
                     tcases.append([testreq, nml1, dir_nml2])
             os.chdir(curdir)
     return tcases
