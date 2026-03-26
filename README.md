@@ -26,6 +26,8 @@ Feedback and contributions are welcome, please open an issue or create a pull re
 
 Namelists, models, or tools relevant to YREC are invited to be posted to the [YREC Zenodo community](https://zenodo.org/communities/yrecmodels).
 
+You can subscribe to the YREC newsletter [here](https://buttondown.com/pinsonneault/).
+
 ### Citing
 
 If you use YREC in your research, please cite one or more of the relevant papers.
