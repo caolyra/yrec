@@ -36,7 +36,7 @@ pip install pytest pytest-xdist
 The test runner has been successfully used with python 3.10, pytest 8.4.2, and
 pytest-xdist 3.8.0 and should also work with newer versions of these.
 
-### Running Tests
+### Procedure
 
 1. Build YREC using the Makefile in `src` (see <project:./quickstart.md#building-yrec>)
 2. Activate environment containing pytest per Environment steps above
